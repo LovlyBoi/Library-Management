@@ -13,6 +13,7 @@ function App() {
       >
         +1
       </button>
+      <h2>猪比！</h2>
     </div>
   )
 }
