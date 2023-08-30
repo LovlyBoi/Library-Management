@@ -1,7 +1,7 @@
 // commitlint.config.ts
-import type { UserConfig } from '@commitlint/types'
+// import type { UserConfig } from '@commitlint/types'
 
-const Configuration: UserConfig = {
+const Configuration = {
   extends: ['@commitlint/config-conventional'],
   helpUrl:
     'https://github.com/conventional-changelog/commitlint/#what-is-commitlint',
@@ -104,4 +104,4 @@ const Configuration: UserConfig = {
   },
 }
 
-module.exports = Configuration
+export default Configuration
